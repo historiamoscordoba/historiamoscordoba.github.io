@@ -8,13 +8,17 @@ description: "Conoce Historiamos Córdoba, un proyecto de visitas turísticas y 
 
 **Historiamos Córdoba** nace con una idea sencilla: contar Córdoba de una forma cercana, rigurosa y emocionante.
 
-La ciudad no es solo un conjunto de monumentos. Es una suma de épocas, culturas, calles, símbolos, leyendas, oficios, patios, plazas y vidas cotidianas. Nuestro objetivo es ayudarte a mirar Córdoba con más profundidad.
+La ciudad no es solo un conjunto de monumentos. Es una suma de épocas, culturas, calles, símbolos, leyendas, oficios, patios, plazas y vidas cotidianas.
+
+Nuestro objetivo es ayudarte a mirar Córdoba con más profundidad.
 
 ## Quién está detrás
 
-Soy **Antonio López Jiménez**, historiador y divulgador. Me apasiona la historia, la educación y la posibilidad de acercar el patrimonio a todo tipo de públicos.
+Soy **Antonio López Jiménez**, historiador y divulgador.
 
-A través de estas visitas quiero compartir una Córdoba explicada con claridad, sin prisas y con atención al detalle: una ciudad que se entiende mejor cuando alguien te ayuda a leerla.
+Me apasiona la historia, la educación y la posibilidad de acercar el patrimonio a todo tipo de públicos.
+
+A través de estas visitas quiero compartir una Córdoba explicada con claridad, sin prisas y con atención al detalle.
 
 ## Nuestra forma de hacer visitas
 
@@ -39,10 +43,6 @@ Nuestras visitas están pensadas para:
 - Centros educativos.
 - Asociaciones culturales.
 - Empresas o grupos privados.
-
-## Córdoba se cuenta caminando
-
-Creemos que la mejor forma de conocer Córdoba es caminarla: detenerse en una calleja, mirar un arco, entender una plaza, descubrir una inscripción, escuchar una historia y relacionar cada lugar con la ciudad que fue y con la ciudad que sigue siendo.
 
 [Ver rutas]({{site.baseurl}}/rutas/){: .btn .btn-dark }
 [Contactar]({{site.baseurl}}/contacto/){: .btn .btn-outline-dark }

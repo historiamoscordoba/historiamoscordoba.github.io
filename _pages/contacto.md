@@ -8,15 +8,13 @@ description: "Contacta con Historiamos Córdoba para reservar visitas turística
 
 ¿Quieres reservar una visita guiada en Córdoba o consultar disponibilidad?
 
-Escríbenos y cuéntanos qué tipo de ruta te interesa. Te responderemos lo antes posible con una propuesta adaptada.
+Escríbenos y cuéntanos qué tipo de ruta te interesa. Te responderemos con una propuesta adaptada.
 
 ## Datos de contacto
 
 **Email:** [antoniolopezjimenez30@gmail.com](mailto:antoniolopezjimenez30@gmail.com)
 
-Si quieres añadir WhatsApp, puedes ponerlo aquí:
-
-**WhatsApp:** `+34 XXX XXX XXX`
+**WhatsApp:** próximamente
 
 ## Para preparar tu visita
 
@@ -29,15 +27,9 @@ Cuando escribas, indícanos:
 - Duración aproximada que prefieres.
 - Cualquier necesidad especial del grupo.
 
-## Rutas disponibles
-
-Puedes consultar nuestras propuestas principales aquí:
-
-[Ver rutas turísticas]({{site.baseurl}}/rutas/){: .btn .btn-dark }
-
 ## Mensaje de ejemplo
 
-Puedes copiar este texto y enviarlo por email:
+Puedes escribirnos algo así:
 
 > Hola, me gustaría reservar una visita guiada en Córdoba.  
 > Somos ___ personas.  
@@ -45,3 +37,5 @@ Puedes copiar este texto y enviarlo por email:
 > La fecha sería ___.  
 > ¿Podríais decirme disponibilidad y precio?  
 > Gracias.
+
+[Ver rutas disponibles]({{site.baseurl}}/rutas/){: .btn .btn-dark }

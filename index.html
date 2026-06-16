@@ -2,186 +2,83 @@
 title: "Visitas turísticas en Córdoba"
 layout: default
 pagination:
-  enabled: true
-description: "Visitas guiadas, rutas culturales y experiencias históricas para descubrir Córdoba con Historiamos Córdoba."
+    enabled: true
+description: "Visitas guiadas, rutas culturales e historias de Córdoba para descubrir la ciudad desde su patrimonio."
 ---
 
 {% if page.url == "/" %}
 
-<div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
-  <div class="h-100 tofront">
-    <div class="row justify-content-between">
-      <div class="col-md-6 pt-6 pb-6 align-self-center">
-        <p class="text-uppercase font-weight-bold text-muted mb-2">
-          Visitas turísticas en Córdoba
-        </p>
-
-        <h1 class="display-4 mb-4 article-headline">
-          Descubre Córdoba con historia, calma y mirada local
-        </h1>
-
-        <p class="mb-4">
-          En <strong>Historiamos Córdoba</strong> convertimos cada visita en un recorrido por la memoria de la ciudad:
-          sus calles, monumentos, patios, leyendas, culturas y rincones que muchas veces pasan desapercibidos.
-        </p>
-
-        <p class="mb-4">
-          Rutas guiadas para viajeros, familias, centros educativos y grupos que quieren entender Córdoba,
-          no solo verla.
-        </p>
-
-        <a href="{{site.baseurl}}/rutas/" class="btn btn-dark">
-          Ver rutas
-        </a>
-
-        <a href="{{site.baseurl}}/contacto/" class="btn btn-outline-dark ml-2">
-          Reservar visita
-        </a>
-      </div>
-
-      <div class="col-md-6 pr-0">
-        <img src="{{site.baseurl}}/assets/images/cordoba-hero.jpg" alt="Visitas turísticas en Córdoba" class="intro">
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="row mb-5">
-  <div class="col-md-4 mb-4">
-    <div class="card h-100 border-0 shadow-sm">
-      <div class="card-body">
-        <h3 class="h5">Rutas con contexto histórico</h3>
-        <p class="text-muted">
-          No se trata solo de fechas y monumentos. Te contamos Córdoba como una ciudad viva, con capas de historia que aún se leen en sus calles.
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-md-4 mb-4">
-    <div class="card h-100 border-0 shadow-sm">
-      <div class="card-body">
-        <h3 class="h5">Visitas cercanas y adaptadas</h3>
-        <p class="text-muted">
-          Adaptamos el recorrido al tipo de grupo: viajeros, familias, estudiantes, asociaciones o personas que quieren descubrir la ciudad con más profundidad.
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-md-4 mb-4">
-    <div class="card h-100 border-0 shadow-sm">
-      <div class="card-body">
-        <h3 class="h5">Córdoba más allá de lo típico</h3>
-        <p class="text-muted">
-          Mezquita-Catedral, Judería, patios, plazas, leyendas, memoria popular y rincones menos conocidos de la ciudad.
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="mb-5">
-  <h2 class="h3 mb-4">Rutas turísticas en Córdoba</h2>
-
-  <div class="row">
-    <div class="col-md-4 mb-4" id="cordoba-imprescindible">
-      <div class="card h-100">
-        <div class="card-body">
-          <h3 class="h5">Córdoba imprescindible</h3>
-          <p>
-            Un recorrido ideal para una primera visita: Judería, entorno de la Mezquita-Catedral, callejas históricas, plazas y rincones esenciales.
-          </p>
-          <p class="small text-muted">
-            Recomendada para: primera vez en Córdoba, parejas, familias y grupos pequeños.
-          </p>
-          <a href="{{site.baseurl}}/rutas/#cordoba-imprescindible" class="btn btn-sm btn-outline-dark">Ver ruta</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-4 mb-4" id="cordoba-de-las-tres-culturas">
-      <div class="card h-100">
-        <div class="card-body">
-          <h3 class="h5">Córdoba de las tres culturas</h3>
-          <p>
-            Una visita para comprender la huella islámica, judía y cristiana de la ciudad, sus encuentros, tensiones y legado patrimonial.
-          </p>
-          <p class="small text-muted">
-            Recomendada para: amantes de la historia, centros educativos y viajeros culturales.
-          </p>
-          <a href="{{site.baseurl}}/rutas/#cordoba-de-las-tres-culturas" class="btn btn-sm btn-outline-dark">Ver ruta</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-4 mb-4" id="cordoba-oculta">
-      <div class="card h-100">
-        <div class="card-body">
-          <h3 class="h5">Córdoba oculta y legendaria</h3>
-          <p>
-            Una ruta diferente por relatos, leyendas, plazas, callejas y episodios menos conocidos de la ciudad.
-          </p>
-          <p class="small text-muted">
-            Recomendada para: quienes ya conocen Córdoba o buscan una experiencia distinta.
-          </p>
-          <a href="{{site.baseurl}}/rutas/#cordoba-oculta" class="btn btn-sm btn-outline-dark">Ver ruta</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="row mb-5">
-  <div class="col-md-8">
-    <h2 class="h3 mb-3">¿Por qué elegir Historiamos Córdoba?</h2>
-
-    <p>
-      Porque una ciudad como Córdoba merece ser contada con rigor, sensibilidad y cercanía.
-      Nuestras visitas combinan divulgación histórica, patrimonio, anécdotas y una forma tranquila de mirar la ciudad.
-    </p>
-
-    <p>
-      Queremos que al terminar la ruta no solo recuerdes un monumento, sino que entiendas mejor la vida, las culturas
-      y las personas que han dado forma a Córdoba.
-    </p>
-  </div>
-
-  <div class="col-md-4">
-    <div class="p-4 bg-light rounded">
-      <h3 class="h5">Reserva o consulta disponibilidad</h3>
-      <p class="small text-muted">
-        Escríbenos indicando fecha, número de personas y tipo de ruta que te interesa.
-      </p>
-      <a href="{{site.baseurl}}/contacto/" class="btn btn-dark btn-block">Contactar</a>
-    </div>
-  </div>
-</div>
-
-{% endif %}
-
-<h2 class="h4 mb-4">Artículos sobre Córdoba</h2>
-
 <div class="row">
-  {% for post in paginator.posts %}
-    {% include main-loop-card.html %}
-  {% endfor %}
+    
+    <div class="col-md-8">
+        
+        <div class="mainheading">
+            <h1 class="sitetitle">Historiamos Córdoba</h1>
+            <p class="lead">
+                Visitas turísticas, rutas guiadas e historias para descubrir Córdoba con una mirada cercana, cultural y diferente.
+            </p>
+        </div>
+
+        <section class="featured-posts">
+            <div class="section-title">
+                <h2><span>Descubre Córdoba con historia</span></h2>
+            </div>
+
+            <div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
+                <div class="h-100 tofront">
+                    <div class="row justify-content-between">
+                        <div class="col-md-12 pt-4 pb-4 align-self-center">
+                            <h2 class="mb-3">
+                                Rutas guiadas para entender la ciudad, no solo verla
+                            </h2>
+
+                            <p>
+                                En <strong>Historiamos Córdoba</strong> te acompañamos a descubrir la ciudad a través de su historia, sus monumentos, sus calles, sus patios y sus relatos.
+                            </p>
+
+                            <p>
+                                Córdoba es una ciudad para caminar despacio. Cada arco, plaza, calleja o patio guarda una parte de su memoria. Nuestra propuesta es contártela de forma clara, cercana y con rigor histórico.
+                            </p>
+
+                            <p>
+                                Organizamos visitas para viajeros, familias, grupos, asociaciones y centros educativos.
+                            </p>
+
+                            <p>
+                                <a href="{{site.baseurl}}/rutas/" class="btn btn-dark">Ver rutas</a>
+                                <a href="{{site.baseurl}}/contacto/" class="btn btn-outline-dark">Contactar</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="recent-posts">
+            <div class="section-title">
+                <h2><span>Historias y rutas por Córdoba</span></h2>
+            </div>
+
+            <div class="row listrecent">
+                {% for post in paginator.posts %}
+                    {% include postbox.html %}
+                {% endfor %}
+            </div>
+        </section>
+
+        <div class="bottompagination">
+            <div class="pointerup"><i class="fa fa-caret-up"></i></div>
+            <span class="navigation" role="navigation">
+                {% include pagination.html %}
+            </span>
+        </div>
+
+    </div>
+
+    <div class="col-md-4">
+        {% include sidebar.html %}
+    </div>
+
 </div>
 
-{% if paginator.total_pages > 1 %}
-<div class="bottompagination">
-  <span class="navigation" role="navigation">
-    {% if paginator.previous_page %}
-      <a class="ml-1 mr-1" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Anterior</a>
-    {% endif %}
-
-    <span class="ml-1 mr-1">Página {{ paginator.page }} de {{ paginator.total_pages }}</span>
-
-    {% if paginator.next_page %}
-      <a class="ml-1 mr-1" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Siguiente &raquo;</a>
-    {% endif %}
-  </span>
-</div>
 {% endif %}
-
-{% include sidebar-featured.html %}
