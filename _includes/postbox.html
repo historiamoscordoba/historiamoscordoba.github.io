@@ -1,0 +1,39 @@
+<div class="col-md-12 mb-4">
+  <div class="card border-0 mb-4 box-shadow">
+    {% if post.image %}
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        <img class="card-img-top" src="{{ site.baseurl }}/{{ post.image }}" alt="{{ post.title }}">
+      </a>
+    {% endif %}
+
+    <div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
+      <h2 class="h4 font-weight-bold">
+        <a class="text-dark" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      </h2>
+
+      {% if post.description %}
+        <p class="excerpt">
+          {{ post.description }}
+        </p>
+      {% else %}
+        <p class="excerpt">
+          {{ post.excerpt | strip_html | truncatewords: 32 }}
+        </p>
+      {% endif %}
+
+      <div>
+        <small class="d-block text-muted">
+          {% assign author = site.authors[post.author] %}
+          {% if author %}
+            {{ author.name }}
+          {% else %}
+            Historiamos Córdoba
+          {% endif %}
+        </small>
+        <small class="text-muted">
+          {{ post.date | date: "%d/%m/%Y" }} · {% include read-time.html %}
+        </small>
+      </div>
+    </div>
+  </div>
+</div>
