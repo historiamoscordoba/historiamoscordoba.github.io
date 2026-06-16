@@ -1,21 +1,44 @@
-<div class="sticky-top sticky-top-offset">
-    <h4 class="font-weight-bold spanborder"><span>Featured</span></h4>  
-    <ol class="list-featured">				
-        {% for post in site.tags.featured %}                
-            <li class="mb-4">
-            <span>
-                <h6 class="font-weight-bold">
-                    <a href="{{site.baseurl}}{{ post.url }}" class="text-dark">{{ post.title }}</a>
-                </h6>
-                <span class="d-block text-muted">
-                    In <span class="catlist">
-                    {% for category in post.categories %}
-                    <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
-                    {% endfor %}
-                    </span>
-                </span>
-            </span>
-            </li>                
-        {% endfor %}   
-    </ol>
-</div> 
+<div class="sidebar-section">
+  <h5><span>Rutas destacadas</span></h5>
+
+  <ol class="list-featured">
+    <li>
+      <span>
+        <h6>
+          <a href="{{site.baseurl}}/rutas/#cordoba-imprescindible">
+            Córdoba imprescindible
+          </a>
+        </h6>
+        <p class="text-muted small">
+          Judería, entorno de la Mezquita-Catedral, calles históricas y rincones esenciales.
+        </p>
+      </span>
+    </li>
+
+    <li>
+      <span>
+        <h6>
+          <a href="{{site.baseurl}}/rutas/#cordoba-de-las-tres-culturas">
+            Córdoba de las tres culturas
+          </a>
+        </h6>
+        <p class="text-muted small">
+          Una ruta para entender la huella islámica, judía y cristiana de la ciudad.
+        </p>
+      </span>
+    </li>
+
+    <li>
+      <span>
+        <h6>
+          <a href="{{site.baseurl}}/rutas/#cordoba-oculta">
+            Córdoba oculta y legendaria
+          </a>
+        </h6>
+        <p class="text-muted small">
+          Historias, leyendas, plazas y rincones menos conocidos.
+        </p>
+      </span>
+    </li>
+  </ol>
+</div>
