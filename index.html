@@ -1,84 +1,96 @@
 ---
 title: "Visitas turísticas en Córdoba"
 layout: default
-pagination:
-    enabled: true
 description: "Visitas guiadas, rutas culturales e historias de Córdoba para descubrir la ciudad desde su patrimonio."
 ---
 
-{% if page.url == "/" %}
-
 <div class="row">
-    
-    <div class="col-md-8">
-        
-        <div class="mainheading">
-            <h1 class="sitetitle">Historiamos Córdoba</h1>
-            <p class="lead">
-                Visitas turísticas, rutas guiadas e historias para descubrir Córdoba con una mirada cercana, cultural y diferente.
-            </p>
-        </div>
+  <div class="col-md-8">
 
-        <section class="featured-posts">
-            <div class="section-title">
-                <h2><span>Descubre Córdoba con historia</span></h2>
-            </div>
-
-            <div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
-                <div class="h-100 tofront">
-                    <div class="row justify-content-between">
-                        <div class="col-md-12 pt-4 pb-4 align-self-center">
-                            <h2 class="mb-3">
-                                Rutas guiadas para entender la ciudad, no solo verla
-                            </h2>
-
-                            <p>
-                                En <strong>Historiamos Córdoba</strong> te acompañamos a descubrir la ciudad a través de su historia, sus monumentos, sus calles, sus patios y sus relatos.
-                            </p>
-
-                            <p>
-                                Córdoba es una ciudad para caminar despacio. Cada arco, plaza, calleja o patio guarda una parte de su memoria. Nuestra propuesta es contártela de forma clara, cercana y con rigor histórico.
-                            </p>
-
-                            <p>
-                                Organizamos visitas para viajeros, familias, grupos, asociaciones y centros educativos.
-                            </p>
-
-                            <p>
-                                <a href="{{site.baseurl}}/rutas/" class="btn btn-dark">Ver rutas</a>
-                                <a href="{{site.baseurl}}/contacto/" class="btn btn-outline-dark">Contactar</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="recent-posts">
-            <div class="section-title">
-                <h2><span>Historias y rutas por Córdoba</span></h2>
-            </div>
-
-            <div class="row listrecent">
-                {% for post in paginator.posts %}
-                    {% include postbox.html %}
-                {% endfor %}
-            </div>
-        </section>
-
-        <div class="bottompagination">
-            <div class="pointerup"><i class="fa fa-caret-up"></i></div>
-            <span class="navigation" role="navigation">
-                {% include pagination.html %}
-            </span>
-        </div>
-
+    <div class="mainheading">
+      <h1 class="sitetitle">Historiamos Córdoba</h1>
+      <p class="lead">
+        Visitas turísticas, rutas guiadas e historias para descubrir Córdoba con una mirada cercana, cultural y diferente.
+      </p>
     </div>
 
-    <div class="col-md-4">
-        {% include sidebar.html %}
-    </div>
+    <section class="featured-posts">
+      <div class="section-title">
+        <h2><span>Descubre Córdoba con historia</span></h2>
+      </div>
 
+      <div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
+        <div class="h-100 tofront">
+          <div class="row justify-content-between">
+            <div class="col-md-12 pt-4 pb-4 align-self-center">
+              <h2 class="mb-3">Rutas guiadas para entender la ciudad, no solo verla</h2>
+
+              <p>
+                En <strong>Historiamos Córdoba</strong> te acompañamos a descubrir la ciudad a través de su historia,
+                sus monumentos, sus calles, sus patios y sus relatos.
+              </p>
+
+              <p>
+                Córdoba es una ciudad para caminar despacio. Cada arco, plaza, calleja o patio guarda una parte de su memoria.
+                Nuestra propuesta es contártela de forma clara, cercana y con rigor histórico.
+              </p>
+
+              <p>
+                Organizamos visitas para viajeros, familias, grupos, asociaciones y centros educativos.
+              </p>
+
+              <p>
+                <a href="{{ site.baseurl }}/rutas/" class="btn btn-dark">Ver rutas</a>
+                <a href="{{ site.baseurl }}/contacto/" class="btn btn-outline-dark">Contactar</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="recent-posts">
+      <div class="section-title">
+        <h2><span>Historias y rutas por Córdoba</span></h2>
+      </div>
+
+      <div class="listrecent">
+        {% for post in site.posts limit:10 %}
+          <div class="mb-5 d-flex justify-content-between main-loop-card">
+            <div class="pr-3">
+              <h2 class="mb-1 h4 font-weight-bold">
+                <a class="text-dark" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              </h2>
+
+              {% if post.description %}
+                <p class="excerpt">{{ post.description }}</p>
+              {% else %}
+                <p class="excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+              {% endif %}
+
+              <small class="d-block text-muted">
+                {% if post.author and site.authors[post.author] %}
+                  {{ site.authors[post.author].name }} ·
+                {% endif %}
+                {{ post.date | date: "%d/%m/%Y" }}
+              </small>
+            </div>
+
+            {% if post.image %}
+              <div class="col-md-3 pr-0 text-right">
+                <a href="{{ post.url | prepend: site.baseurl }}">
+                  <img class="w-100" src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}">
+                </a>
+              </div>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    </section>
+
+  </div>
+
+  <div class="col-md-4">
+    {% include sidebar.html %}
+  </div>
 </div>
-
-{% endif %}

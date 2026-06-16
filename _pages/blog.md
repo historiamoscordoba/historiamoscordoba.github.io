@@ -1,5 +1,5 @@
 ---
-title: "Blog sobre Córdoba"
+title: "Blog"
 permalink: /blog/
 description: "Artículos sobre historia, patrimonio, rutas y curiosidades de Córdoba."
 ---
@@ -8,8 +8,18 @@ description: "Artículos sobre historia, patrimonio, rutas y curiosidades de Có
 
 Artículos para descubrir la historia, el patrimonio y los rincones de Córdoba antes o después de tu visita.
 
-<div class="row">
 {% for post in site.posts %}
-  {% include main-loop-card.html %}
+
+## [{{ post.title }}]({{ post.url | prepend: site.baseurl }})
+
+{% if post.description %}
+{{ post.description }}
+{% else %}
+{{ post.excerpt | strip_html | truncatewords: 35 }}
+{% endif %}
+
+<small>{{ post.date | date: "%d/%m/%Y" }}</small>
+
+---
+
 {% endfor %}
-</div>

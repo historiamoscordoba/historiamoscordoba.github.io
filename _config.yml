@@ -1,5 +1,6 @@
 # Site
 name: 'Historiamos Córdoba'
+title: 'Historiamos Córdoba'
 description: 'Visitas turísticas, rutas guiadas e historias de Córdoba para descubrir la ciudad con una mirada histórica y cercana.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
@@ -13,38 +14,35 @@ include: ["_pages"]
 permalink: /:title/
 
 # Plugins
-plugins: 
+plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
-  
+
 authors:
-    antonio:
-      name:           Antonio López Jiménez
-      site:           https://historiamoscordoba.github.io
-      avatar:         /assets/images/avatar1.jpg
-      bio:            "Historiador y divulgador. En Historiamos Córdoba comparto rutas, visitas y relatos para descubrir Córdoba desde su historia, su patrimonio y sus rincones menos conocidos."
-      email:          antoniolopezjimenez30@gmail.com
-      twitter:        
+  antonio:
+    name: Antonio López Jiménez
+    site: https://historiamoscordoba.github.io
+    avatar: /assets/images/avatar1.jpg
+    bio: "Historiador y divulgador. En Historiamos Córdoba comparto rutas, visitas y relatos para descubrir Córdoba desde su historia, su patrimonio y sus rincones menos conocidos."
+    email: antoniolopezjimenez30@gmail.com
+    twitter:
 
 # Defaults
 defaults:
-
-  # all posts
   - scope:
       path: "_posts"
     values:
       layout: post
       author: antonio
       avatar: /assets/images/avatar1.jpg
-      
-  # all pages
+
   - scope:
       path: "_pages"
     values:
       layout: page
-      
+
 # Syntax
 markdown: kramdown
 highlighter: rouge

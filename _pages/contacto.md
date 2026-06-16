@@ -18,24 +18,6 @@ Escríbenos y cuéntanos qué tipo de ruta te interesa. Te responderemos con una
 
 ## Para preparar tu visita
 
-Cuando escribas, indícanos:
+Cuando escribas, indícanos la fecha aproximada, el número de personas, el tipo de ruta que te interesa, si es una visita privada, familiar, educativa o de grupo, y la duración aproximada que prefieres.
 
-- Fecha aproximada.
-- Número de personas.
-- Tipo de ruta que te interesa.
-- Si es una visita privada, familiar, educativa o de grupo.
-- Duración aproximada que prefieres.
-- Cualquier necesidad especial del grupo.
-
-## Mensaje de ejemplo
-
-Puedes escribirnos algo así:
-
-> Hola, me gustaría reservar una visita guiada en Córdoba.  
-> Somos ___ personas.  
-> Nos interesa la ruta ___.  
-> La fecha sería ___.  
-> ¿Podríais decirme disponibilidad y precio?  
-> Gracias.
-
-[Ver rutas disponibles]({{site.baseurl}}/rutas/){: .btn .btn-dark }
+[Ver rutas disponibles]({{ site.baseurl }}/rutas/){: .btn .btn-dark }

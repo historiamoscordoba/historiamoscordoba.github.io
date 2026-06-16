@@ -18,11 +18,7 @@ Una ruta pensada para quienes visitan Córdoba por primera vez y quieren llevars
 
 Durante el recorrido pasearemos por el entorno de la **Mezquita-Catedral**, la **Judería**, plazas históricas, callejas con encanto y algunos de los rincones más representativos del casco histórico.
 
-**Ideal para:**
-
-- Primera visita a Córdoba.
-- Parejas, familias y grupos pequeños.
-- Viajeros que quieren una introducción completa a la ciudad.
+**Ideal para:** primera visita a Córdoba, parejas, familias, grupos pequeños y viajeros que quieren una introducción completa a la ciudad.
 
 **Duración orientativa:** 2 horas.
 
@@ -34,12 +30,7 @@ Una visita para comprender la huella islámica, judía y cristiana de Córdoba.
 
 Hablaremos de la evolución histórica de la ciudad, sus cambios urbanos, sus espacios de memoria y la forma en que distintas culturas dejaron señales que todavía pueden leerse en sus calles.
 
-**Ideal para:**
-
-- Personas interesadas en la historia.
-- Centros educativos.
-- Asociaciones culturales.
-- Grupos que buscan una visita con más contexto.
+**Ideal para:** personas interesadas en la historia, centros educativos, asociaciones culturales y grupos que buscan una visita con más contexto.
 
 **Duración orientativa:** 2 horas.
 
@@ -51,13 +42,6 @@ Una ruta diferente por relatos, leyendas, plazas, callejas y episodios menos con
 
 No se trata solo de contar curiosidades, sino de descubrir otra forma de mirar la ciudad: sus símbolos, personajes, rincones y memorias populares.
 
-**Ideal para:**
-
-- Personas que ya conocen Córdoba.
-- Visitantes que buscan una experiencia distinta.
-- Grupos de amigos.
-- Actividades culturales.
-
 **Duración orientativa:** 1 hora y 30 minutos - 2 horas.
 
 ---
@@ -68,21 +52,7 @@ Córdoba también se entiende a través de sus patios, sus casas, sus plazas y s
 
 Esta ruta se centra en la arquitectura popular, la vida cotidiana, la memoria vecinal y la relación entre la ciudad, el agua, las flores y la sombra.
 
-**Ideal para:**
-
-- Amantes de la Córdoba más cercana.
-- Visitantes interesados en patios y tradiciones.
-- Grupos tranquilos que quieren pasear sin prisas.
-
 **Duración orientativa:** 2 horas.
-
----
-
-## Visitas para centros educativos
-
-También preparamos rutas adaptadas para estudiantes, con explicaciones claras y contenidos ajustados al nivel del grupo.
-
-Podemos trabajar temas como la Córdoba romana, islámica, medieval, moderna, contemporánea, el patrimonio, la convivencia cultural o la evolución urbana de la ciudad.
 
 ---
 
@@ -90,4 +60,4 @@ Podemos trabajar temas como la Córdoba romana, islámica, medieval, moderna, co
 
 Cuéntanos la fecha, el número de personas y el tipo de ruta que te interesa.
 
-[Contactar para reservar]({{site.baseurl}}/contacto/){: .btn .btn-dark }
+[Contactar para reservar]({{ site.baseurl }}/contacto/){: .btn .btn-dark }
