@@ -4,7 +4,7 @@ title: "Qué ver en Córdoba si es tu primera vez"
 author: antonio
 categories: [cordoba, turismo]
 tags: [cordoba, visitas-guiadas, rutas]
-image: assets/images/demopic/1.jpg
+image: assets/images/1.jpg
 description: "Una guía sencilla para descubrir Córdoba por primera vez: Judería, Mezquita-Catedral, patios, plazas y rutas guiadas."
 ---
 

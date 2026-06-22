@@ -4,7 +4,7 @@ title: "Ruta por la Judería de Córdoba: historia, calles y rincones"
 author: antonio
 categories: [cordoba, rutas]
 tags: [juderia, cordoba, visitas-guiadas]
-image: assets/images/demopic/2.jpg
+image: assets/images/2.jpg
 description: "Descubre la Judería de Córdoba con una ruta histórica por sus calles, plazas y rincones más representativos."
 ---
 

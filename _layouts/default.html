@@ -1,11 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{{page.title}} | {{site.name}}</title>
-
     {% seo %}
 
     <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/{{site.favicon}}">
@@ -73,19 +71,19 @@
 
 
     <!-- Footer -->
-    <footer class="bg-white border-top p-3 text-muted small">
+    <footer class="site-footer border-top p-3 text-muted small">
         <div class="container">
         <div class="row align-items-center justify-content-between">
             <div>
-                <span class="navbar-brand mr-2 mb-0"><strong>Mundana</strong></span>
-                <span>Copyright © <script>document.write(new Date().getFullYear())</script>.</span>
-
-                <!--  Github Repo Star Btn-->
-                <a class="text-dark ml-1" target="_blank" href="https://github.com/wowthemesnet/mundana-theme-jekyll"><i class="fab fa-github"></i> Fork on Github</a>
-
+                <span class="navbar-brand mr-2 mb-0"><strong>{{site.name}}</strong></span>
+                <span>Visitas guiadas, rutas históricas y divulgación cultural en Córdoba.</span>
             </div>
             <div>
-                Made with <a target="_blank" class="text-dark font-weight-bold" href="https://www.wowthemes.net/mundana-jekyll-theme/"> Mundana Jekyll Theme </a> by <a class="text-dark" target="_blank" href="https://www.wowthemes.net">WowThemes</a>.
+                <a class="text-dark" href="{{ site.baseurl }}/rutas/">Rutas</a>
+                <span class="mx-2">·</span>
+                <a class="text-dark" href="{{ site.baseurl }}/contacto/">Reservas</a>
+                <span class="mx-2">·</span>
+                <a class="text-dark" href="mailto:{{ site.email }}">{{ site.email }}</a>
             </div>
         </div>
         </div>

@@ -4,7 +4,7 @@ title: "Córdoba de las tres culturas: una ciudad para entender caminando"
 author: antonio
 categories: [cordoba, historia]
 tags: [tres-culturas, cordoba, rutas]
-image: assets/images/demopic/3.jpg
+image: assets/images/3.jpg
 description: "Una introducción a la Córdoba de las tres culturas y a las rutas guiadas para comprender su historia."
 ---
 

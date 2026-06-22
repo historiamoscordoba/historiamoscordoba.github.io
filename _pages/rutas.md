@@ -1,14 +1,14 @@
 ---
-title: "Rutas turísticas en Córdoba"
+title: "Rutas guiadas por Córdoba"
 permalink: /rutas/
-description: "Rutas guiadas por Córdoba: Judería, Mezquita-Catedral, tres culturas, patios, leyendas y Córdoba oculta."
+description: "Rutas guiadas por Córdoba para particulares, grupos y centros educativos: casco histórico, Córdoba romana y medieval, patios, leyendas y visitas privadas."
 ---
 
-# Rutas turísticas en Córdoba
+# Rutas guiadas por Córdoba
 
-En **Historiamos Córdoba** ofrecemos visitas guiadas para descubrir la ciudad desde su historia, su patrimonio y sus relatos.
+En **Historiamos Córdoba** ofrecemos visitas guiadas para descubrir la ciudad desde su historia, su patrimonio y sus relatos. Trabajamos con viajeros, familias, grupos privados, asociaciones y centros educativos.
 
-Puedes elegir una de nuestras rutas principales o escribirnos para preparar una visita adaptada a tu grupo.
+Puedes elegir una de nuestras rutas principales o escribirnos para preparar una visita adaptada a tu grupo. Córdoba tiene muchas lecturas: romana, andalusí, judía, cristiana, nobiliaria, popular, contemporánea y cotidiana.
 
 ---
 
@@ -24,13 +24,23 @@ Durante el recorrido pasearemos por el entorno de la **Mezquita-Catedral**, la *
 
 ---
 
-## Córdoba de las tres culturas {#tres-culturas}
+## De la Córdoba romana a la medieval {#cordoba-romana-medieval}
 
-Una visita para comprender la huella islámica, judía y cristiana de Córdoba.
+Una visita para comprender cómo Córdoba fue cambiando desde la ciudad romana hasta la gran ciudad medieval.
 
-Hablaremos de la evolución histórica de la ciudad, sus cambios urbanos, sus espacios de memoria y la forma en que distintas culturas dejaron señales que todavía pueden leerse en sus calles.
+Hablaremos de urbanismo, poder, religión, vida cotidiana, murallas, plazas, calles y espacios de memoria. La Córdoba andalusí es fundamental, pero también lo son la herencia romana, la transformación cristiana y la ciudad que siguió creciendo después.
 
 **Ideal para:** personas interesadas en la historia, centros educativos, asociaciones culturales y grupos que buscan una visita con más contexto.
+
+**Duración orientativa:** 2 horas.
+
+---
+
+## Córdoba de las tres culturas {#tres-culturas}
+
+Una ruta centrada en la convivencia, los contactos, los conflictos y las huellas de las comunidades islámica, judía y cristiana.
+
+No planteamos la ciudad como una postal inmóvil, sino como un espacio histórico complejo donde las culturas dejaron patrimonio, símbolos, memoria urbana y relatos que todavía se pueden explicar caminando.
 
 **Duración orientativa:** 2 horas.
 
@@ -58,6 +68,26 @@ Esta ruta se centra en la arquitectura popular, la vida cotidiana, la memoria ve
 
 ## Reserva tu visita
 
-Cuéntanos la fecha, el número de personas y el tipo de ruta que te interesa.
+Cuéntanos la fecha, el número de personas, el tipo de ruta que te interesa y si buscas una visita privada, familiar, educativa o para grupo organizado.
 
 [Contactar para reservar]({{ site.baseurl }}/contacto/){: .btn .btn-dark }
+
+---
+
+## Preguntas frecuentes sobre las rutas
+
+### ¿Las visitas son privadas?
+
+Sí. Podemos organizar visitas privadas para parejas, familias, grupos de amigos, asociaciones, centros educativos o empresas.
+
+### ¿Se pueden adaptar las rutas?
+
+Sí. Ajustamos duración, ritmo, contenidos y punto de encuentro según el tipo de grupo y el tiempo disponible.
+
+### ¿Cuánto dura una visita guiada por Córdoba?
+
+La mayoría de rutas duran entre 1 hora y 30 minutos y 2 horas. También se pueden preparar recorridos más amplios.
+
+### ¿Las rutas son solo sobre la Córdoba andalusí?
+
+No. La etapa andalusí es esencial, pero Córdoba también se entiende desde su pasado romano, medieval cristiano, moderno, popular y contemporáneo.

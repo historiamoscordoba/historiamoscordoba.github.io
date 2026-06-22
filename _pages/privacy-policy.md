@@ -1,43 +1,29 @@
 ---
-title: "Privacy Policy"
+title: "Política de privacidad"
 permalink: "/privacy-policy.html"
+description: "Política de privacidad de Historiamos Córdoba."
 ---
 
-"{{site.name}}" takes your privacy seriously. To better protect your privacy we provide this privacy policy notice explaining the way your personal information is collected and used.
+# Política de privacidad
 
+En **{{site.name}}** tratamos la privacidad de las personas usuarias con seriedad. Esta página explica de forma sencilla qué información puede recogerse al visitar la web o contactar con nosotros.
 
-#### Collection of Routine Information
+## Información de contacto
 
-This website track basic information about their visitors. This information includes, but is not limited to, IP addresses, browser details, timestamps and referring pages. None of this information can personally identify specific visitor to this website. The information is tracked for routine administration and maintenance purposes.
+Si escribes para solicitar información o reservar una visita guiada, usaremos los datos que nos facilites únicamente para responder a tu consulta y gestionar la comunicación relacionada con la visita.
 
+## Datos técnicos
 
-#### Cookies
+Como ocurre en la mayoría de sitios web, el alojamiento o las herramientas técnicas pueden registrar datos básicos de navegación, como dirección IP, navegador, fecha, hora o páginas visitadas. Estos datos se usan para mantenimiento, seguridad y funcionamiento de la web.
 
-Where necessary, this website uses cookies to store information about a visitor’s preferences and history in order to better serve the visitor and/or present the visitor with customized content.
+## Cookies
 
+Esta web puede utilizar cookies técnicas necesarias para su funcionamiento. Si en el futuro se incorporan herramientas de analítica, formularios externos o servicios de terceros, se actualizará esta política.
 
-#### Advertisement and Other Third Parties
+## Enlaces externos
 
-Advertising partners and other third parties may use cookies, scripts and/or web beacons to track visitor activities on this website in order to display advertisements and other useful information. Such tracking is done directly by the third parties through their own servers and is subject to their own privacy policies. This website has no access or control over these cookies, scripts and/or web beacons that may be used by third parties. Learn how to [opt out of Google’s cookie usage](http://www.google.com/privacy_ads.html).
+La web puede incluir enlaces a sitios externos. No somos responsables de sus contenidos ni de sus políticas de privacidad.
 
+## Contacto
 
-#### Links to Third Party Websites
-
-We have included links on this website for your use and reference. We are not responsible for the privacy policies on these websites. You should be aware that the privacy policies of these websites may differ from our own.
-
-
-#### Security
-
-The security of your personal information is important to us, but remember that no method of transmission over the Internet, or method of electronic storage, is 100% secure. While we strive to use commercially acceptable means to protect your personal information, we cannot guarantee its absolute security.
-
-
-#### Changes To This Privacy Policy
-
-This Privacy Policy is effective and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page.
-
-We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. If we make any material changes to this Privacy Policy, we will notify you either through the email address you have provided us, or by placing a prominent notice on our website.
-
-
-#### Contact Information
-
-For any questions or concerns regarding the privacy policy, please [contact us here]({{site.baseurl}}/contact.html).
+Para cualquier consulta relacionada con privacidad, puedes escribir a [{{ site.email }}](mailto:{{ site.email }}).

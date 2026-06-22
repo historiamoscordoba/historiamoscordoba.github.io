@@ -1,8 +1,8 @@
 # Site
 name: 'Historiamos Córdoba'
 title: 'Historiamos Córdoba'
-description: 'Visitas turísticas, rutas guiadas e historias de Córdoba para descubrir la ciudad con una mirada histórica y cercana.'
-logo: 'assets/images/logo.png'
+description: 'Visitas guiadas en Córdoba, rutas históricas y divulgación cultural para descubrir la ciudad con rigor, cercanía y una mirada amplia a todo su patrimonio.'
+logo: 'assets/images/home.jpg'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
 url: 'https://historiamoscordoba.github.io'
